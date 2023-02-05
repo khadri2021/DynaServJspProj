@@ -11,5 +11,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jdbc-jars"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jsp-jars"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/servlet-jars"/>
+	<classpathentry kind="lib" path="C:/khadri/Adv Java/Jars/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="C:/khadri/Adv Java/Jars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/khadri/softwares/apache-tomcat-9.0.70/lib/jsp-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

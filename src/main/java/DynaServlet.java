@@ -13,8 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 public class DynaServlet extends HttpServlet {
 
 	@Override
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void service(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
+		System.out.println("HI I'M JEELAN !!!!");
 		try {
 			ResultSet results = getResults();
 
@@ -60,4 +62,5 @@ public class DynaServlet extends HttpServlet {
 		}
 		return resultSet;
 	}
+
 }
